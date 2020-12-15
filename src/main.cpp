@@ -179,7 +179,7 @@ bool inputFromTerminal() {
 void printHelp() {
     cout
             << "Save and restore window containment in i3-wm.\n"
-            << "Usage: i3-snapshot [-d | --debug] [-v | --verbose] [-c | --continue] [-r | --rawstrings] [-t | --title] [-o | --output] [-y | --dryrun]\n"
+            << "Usage: i3-snapshot [-d | --debug] [-v | --version] [-c | --continue] [-r | --rawstrings] [-t | --title] [-o | --output] [-y | --dryrun]\n"
             << "-d: debug  -v: version  -c: ignore error  -r: raw strings  -t: match window title  -o: force output mode -y: dryrun\n"
             << "Generate a snapshot: i3-snapshot > snapshot.txt\n"
             << "Replay a snapshot: i3-snapshot < snapshot.txt"
